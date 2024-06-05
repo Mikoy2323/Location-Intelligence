@@ -5,6 +5,7 @@ import src.osm as osm
 import src.preprocessing as preprocessing
 import sys
 
+
 if __name__ == "__main__":
     data_path = Path.cwd() / "DATA"
     results_path = Path.cwd() / "RESULTS" / "PLOTS"
@@ -20,4 +21,17 @@ if __name__ == "__main__":
     amsterdam_boundaries = preprocessing.boundary_from_points(amsterdam_boundary_cords, amsterdam_bikes.crs)
 
     # plot bike paths and city boundaries in amsterdam
-    plots.paths_plotter(amsterdam_bikes, amsterdam_boundaries, results_path)
+    plots.paths_plotter(amsterdam_bikes, amsterdam_boundaries, results_path, "Amsterdam")
+
+    h3_resolution = 7
+
+    # creating h3_indices for dataframe
+    amsterdam_bikes['h3_indices'] = (
+        amsterdam_bikes['geometry'].apply(lambda x: preprocessing.get_h3_indices(x, h3_resolution)))
+
+    # creating new dataframe with number of bike paths as 'count' parameter and new geometry as h3 polygon
+    h3_amsterdam_bikes = preprocessing.dataframe_to_h3_dataframe(amsterdam_bikes)
+
+    # plotting number of bike paths in each h3 area
+    plots.h3_count_plotter(amsterdam_bikes, h3_amsterdam_bikes, results_path, "Amsterdam")
+
