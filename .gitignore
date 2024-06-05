@@ -1,5 +1,8 @@
 DATA/*
 !DATA/.gitkeep
+RESULTS/PLOTS/*
+!RESULTS/.gitkeep
+!RESULTS/PLOTS/.gitkeep
 .idea/*
 .idea/misc.xml
 # Byte-compiled / optimized / DLL files
