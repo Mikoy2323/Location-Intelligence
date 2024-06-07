@@ -1,5 +1,6 @@
 DATA/*
 !DATA/.gitkeep
+!DATA/amsterdam_population.tif
 RESULTS/PLOTS/*
 !RESULTS/.gitkeep
 !RESULTS/PLOTS/.gitkeep
