@@ -4,6 +4,28 @@ from shapely.geometry import LineString
 import h3
 from shapely.geometry import Polygon
 from collections import Counter
+from geopy.distance import geodesic
+
+
+def geodataframe_from_points(points, crs):
+    """
+    Generates a GeoDataFrame from a list of (latitude, longitude) coordinate tuples.
+
+    Parameters:
+    - points (list of tuples): List of (latitude, longitude) coordinate tuples.
+    - crs (str or dict): Coordinate reference system for the GeoDataFrame.
+
+    Returns:
+    - gdf (GeoDataFrame): GeoDataFrame containing the points and their geometries.
+    """
+    # Create Point geometries from latitude and longitude tuples
+    geometry_points = [Point(lon, lat) for lat, lon in points]
+
+    # Create a GeoDataFrame with the points
+    gdf = gpd.GeoDataFrame(geometry=geometry_points)
+    gdf.crs = crs  # Set the coordinate reference system
+
+    return gdf
 
 
 def boundary_from_points(points, crs):
@@ -57,7 +79,7 @@ def h3_to_polygon(h3_index):
     return gpd.GeoSeries([Polygon(boundary)])
 
 
-def dataframe_to_h3_dataframe(df):
+def dataframe_to_h3_dataframe(df, count_name):
     """
     Converts a DataFrame with H3 indices into a GeoDataFrame containing aggregated H3 hexagons.
 
@@ -67,13 +89,63 @@ def dataframe_to_h3_dataframe(df):
     Returns:
     - h3_df (GeoDataFrame): GeoDataFrame containing aggregated H3 hexagons with counts and geometries.
     """
+
     all_h3_indices = [h3_index for indices in df['h3_indices'] for h3_index in indices]
     h3_counts = Counter(all_h3_indices)
     h3_df = gpd.GeoDataFrame({
         'h3_index': list(h3_counts.keys()),
-        'count': list(h3_counts.values())
+        count_name: list(h3_counts.values())
     })
 
     h3_df['geometry'] = h3_df['h3_index'].apply(lambda x: h3_to_polygon(x).iloc[0])
     h3_df.crs = df.crs
     return h3_df
+
+
+def get_distance_to_centrum(bikes_gdf, centrum_cords):
+    """
+        Calculates the distance from the centroid of each H3 hexagon area to the city center (centrum).
+
+        This function performs the following steps:
+        1. Calculates the centroid of each H3 hexagon area.
+        2. Computes the distance from each centroid to the city center coordinates.
+        3. Adds the calculated distances to the DataFrame.
+        4. Removes the centroid column from the DataFrame.
+
+        Parameters:
+        - bikes_gdf (GeoDataFrame): GeoDataFrame containing H3 hexagon areas and their geometries.
+        - centrum_cords (tuple): Tuple containing the coordinates of the city center (centrum) as (longitude, latitude).
+
+        Returns:
+        - bikes_gdf (GeoDataFrame): Updated GeoDataFrame with the distance to the city center added:
+            - distance_to_centrum: Distance from the centroid of each H3 hexagon area to the city center.
+        """
+    # calculated centroid variable for each h3 area
+    bikes_gdf["centroid"] = (
+        bikes_gdf['geometry'].apply(lambda x: x.centroid))
+
+    # calculating distance from centroid of each h3 area to
+    bikes_gdf["distance_to_centrum"] = (
+        bikes_gdf['centroid'].apply(lambda point: calculate_distance(
+            (point.x, point.y), centrum_cords)))
+
+    bikes_gdf.drop(columns=['centroid'], inplace=True)
+    return bikes_gdf
+
+
+def calculate_distance(coord1, coord2):
+    """
+        Calculates the geodesic distance between two geographical coordinates.
+
+        This function uses the `geopy` library to calculate the geodesic distance
+        (the shortest distance between two points on the surface of an ellipsoidal model of the Earth)
+        between two sets of coordinates.
+
+        Parameters:
+        - coord1 (tuple): A tuple representing the first coordinate (longitude, latitude).
+        - coord2 (tuple): A tuple representing the second coordinate (longitude, latitude).
+
+        Returns:
+        - distance (float): The distance between the two coordinates in meters.
+        """
+    return geodesic(coord1, coord2).meters
