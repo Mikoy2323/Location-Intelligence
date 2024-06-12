@@ -1,7 +1,3 @@
-DATA/*
-!DATA/.gitkeep
-!DATA/amsterdam_population.tif
-!DATA/krakow_population.tif
 RESULTS/PLOTS/*
 RESULTS/PREDICTIONS_PLOTS/*
 !RESULTS/.gitkeep
