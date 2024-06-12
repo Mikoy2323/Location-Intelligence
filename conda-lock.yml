@@ -13,10 +13,10 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: daf0515897ea5ee876e883c74881267a93dad3cd5c90fa343c73709337142475
-    osx-arm64: 114b02cd9b08f9d4d28e05ea72c8f52c856c66f1da3e64f7ba32862047ee9953
-    osx-64: 491b1228c7a0f47d6a78800ecbbafda0e0b1fdced7ca73fb09ea065dba07372b
-    win-64: c6ac85789a0fad6ddf861f45d8391143d07d918aab66688b57b14c2ab159fa5a
+    linux-64: 7a168f8b4e7adf09efc77427382597f3a6f9b9f1b00d7628533d79291abe556c
+    osx-arm64: 101ee9c2f67571904b13a5f57b2dd73b26a56f5bca3ee58ac464f71eb75d153d
+    osx-64: 9148c5ae8e5ebad08654bd1006f94e6345c6057bebf72db04d9782fcfadd58c2
+    win-64: 4e47f6ef9ee807d5c4766e2a5af628de5b7f49e3851fd92eff9149fde3aa26d2
   channels:
   - url: defaults
     used_env_vars: []
@@ -733,51 +733,51 @@ package:
   category: main
   optional: false
 - name: certifi
-  version: 2024.2.2
+  version: 2024.6.2
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/linux-64/certifi-2024.2.2-py311h06a4308_0.conda
+  url: https://repo.anaconda.com/pkgs/main/linux-64/certifi-2024.6.2-py311h06a4308_0.conda
   hash:
-    md5: 41da74cdc2b8351fba03d603ecd2224c
-    sha256: 8ac8ce10ebb32cc2fa0f5045fa51a2095cac16fa86e63ed0fdd56ccc365f0e11
+    md5: 52db2d16212994ce61b938195ca7350f
+    sha256: 90fe1d097a02173b16c35363849abfd9419321dec8c1a2265a1ebf9595acf9d6
   category: main
   optional: false
 - name: certifi
-  version: 2024.2.2
+  version: 2024.6.2
   manager: conda
   platform: osx-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-64/certifi-2024.2.2-py311hecd8cb5_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-64/certifi-2024.6.2-py311hecd8cb5_0.conda
   hash:
-    md5: 68f7968fd22943c0f76588a1d2b255df
-    sha256: 8e82c691c876751872ee488e2a635eb6572e40c54dcf826b7180607ff3e1ebc6
+    md5: ddfd8aada4ab3271f0a165401ffa7d5b
+    sha256: b7bef16ea3feb512977d657a823894234e4b6fe42b4459e4d54f52d671603575
   category: main
   optional: false
 - name: certifi
-  version: 2024.2.2
+  version: 2024.6.2
   manager: conda
   platform: osx-arm64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-arm64/certifi-2024.2.2-py311hca03da5_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-arm64/certifi-2024.6.2-py311hca03da5_0.conda
   hash:
-    md5: 46c13d8bf3fcd80763e86be583fab9f0
-    sha256: 316b7680ff186b93d33bcb931d6bfe213d5cfb39523e2990a9e0a87f74842ee9
+    md5: aebe5948e184e68f2f2b6bf0840da0e5
+    sha256: 8e47edb34e3690c82a225cbaca7ba6450be717525a7c434945a6edcb639d717f
   category: main
   optional: false
 - name: certifi
-  version: 2024.2.2
+  version: 2024.6.2
   manager: conda
   platform: win-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/win-64/certifi-2024.2.2-py311haa95532_0.conda
+  url: https://repo.anaconda.com/pkgs/main/win-64/certifi-2024.6.2-py311haa95532_0.conda
   hash:
-    md5: 2778fd9ec616b4cb2c1b9097e0ff8ed6
-    sha256: 9264f819e60b71704c8d821c519608b51716a45578e326bc524a99e6c21960b4
+    md5: 709c706119a0f698f2a28e9210284536
+    sha256: cbf18ef5ee7c4687cf7bcc3ec708c9598214cef2a9c271e4391f11aa9fcce9b4
   category: main
   optional: false
 - name: cffi
@@ -2617,51 +2617,51 @@ package:
   category: main
   optional: false
 - name: joblib
-  version: 1.4.0
+  version: 1.2.0
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/linux-64/joblib-1.4.0-py311h06a4308_0.conda
+  url: https://repo.anaconda.com/pkgs/main/linux-64/joblib-1.2.0-py311h06a4308_0.conda
   hash:
-    md5: e3e1829adf3964b5e302e81e4f81780f
-    sha256: 48cebb627420999ee0dac4f9b7d4afe4617497e5aef72a8c57517f3d8efc844b
+    md5: 6ef54e241e0ab91f3a3a6572c1d6b2d5
+    sha256: 66673f7feffb52c003d9e589912469e3811d00466a6183e89ebef656317a3dad
   category: main
   optional: false
 - name: joblib
-  version: 1.4.0
+  version: 1.2.0
   manager: conda
   platform: osx-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-64/joblib-1.4.0-py311hecd8cb5_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-64/joblib-1.2.0-py311hecd8cb5_0.conda
   hash:
-    md5: dfeda408d757dbe25c4d022ff596aac6
-    sha256: d381ea92ca526ecb481ab54bc1e7b5bc798d1b7102161bffd9cdf0972e48ebfa
+    md5: af8c1fcd4e8e0c6fa2a4f4ecda261dc9
+    sha256: af38c6e68cc59e64a3d926b6f2637c3ac17a8703eb85dd3dbb07b083b6438a30
   category: main
   optional: false
 - name: joblib
-  version: 1.4.0
+  version: 1.2.0
   manager: conda
   platform: osx-arm64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-arm64/joblib-1.4.0-py311hca03da5_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-arm64/joblib-1.2.0-py311hca03da5_0.conda
   hash:
-    md5: 42da455075df6826f509d09059ccb9d7
-    sha256: 7637a40c83bbfe1aa33907a54fd4b90baa979ee30def5af630f906e9162c0c67
+    md5: 0383c356b6c57839a831be4fb3e47ead
+    sha256: 0e3599c8b0e85580c4861b15454e25d35b5a1f0b385d7963db364cc2ca52876e
   category: main
   optional: false
 - name: joblib
-  version: 1.4.0
+  version: 1.2.0
   manager: conda
   platform: win-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/win-64/joblib-1.4.0-py311haa95532_0.conda
+  url: https://repo.anaconda.com/pkgs/main/win-64/joblib-1.2.0-py311haa95532_0.conda
   hash:
-    md5: ca307e2f49828401e749e22e5b3923e8
-    sha256: 0e13d41b173155c8d63aadff6c51201eb2d877233ea76b9029e3d5f30b188525
+    md5: 5e8436ec382d6abbcb7fdad5f8d460ea
+    sha256: b81fb3ff58a87fbb22d4e7bec2dc085f0d153d7d70f01361f8230e27b2f3f87d
   category: main
   optional: false
 - name: jpeg
@@ -5445,51 +5445,51 @@ package:
   category: main
   optional: false
 - name: networkx
-  version: '3.1'
+  version: 3.2.1
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/linux-64/networkx-3.1-py311h06a4308_0.conda
+  url: https://repo.anaconda.com/pkgs/main/linux-64/networkx-3.2.1-py311h06a4308_0.conda
   hash:
-    md5: bd59515f6ba1ee075a0eed3a92103a2c
-    sha256: 90c7e275c9d6c1ad96785a594b64b749bd04809eeaae1d7d20078085e1723166
+    md5: c7d194518a0d9c531581820b2d97a5a1
+    sha256: 2fbeb2ca65ac59efc3bdc717a84051e2dcd2f46c6284bf73ed85836332c7c53c
   category: main
   optional: false
 - name: networkx
-  version: '3.1'
+  version: 3.2.1
   manager: conda
   platform: osx-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-64/networkx-3.1-py311hecd8cb5_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-64/networkx-3.2.1-py311hecd8cb5_0.conda
   hash:
-    md5: 4a0118f15c31045c783954fb47091a14
-    sha256: 3f2219c8158d0c69605534518c7083545117bff3298603a6edf49bfd15d6bec7
+    md5: 23391b79d4bd000e98d90303e736e822
+    sha256: dcf86a9f6cacaccc4dbd12fb62594fd95a8d3d84976898dbcb79080be73b88ab
   category: main
   optional: false
 - name: networkx
-  version: '3.1'
+  version: 3.2.1
   manager: conda
   platform: osx-arm64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-arm64/networkx-3.1-py311hca03da5_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-arm64/networkx-3.2.1-py311hca03da5_0.conda
   hash:
-    md5: 2eae96519ccdb59f7907cff611a6111f
-    sha256: fae7151a25c98aa8ba8fd0ade41008392d0ed38185a4939c97accbbd6a3d7c8e
+    md5: 92b3aa66531a0b4ef01ed7b788d7304f
+    sha256: 2ba6235e15529e41f4266e75ad9c4fa788bf3c509e6c38296bb691d45f48a6c6
   category: main
   optional: false
 - name: networkx
-  version: '3.1'
+  version: 3.2.1
   manager: conda
   platform: win-64
   dependencies:
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/win-64/networkx-3.1-py311haa95532_0.conda
+  url: https://repo.anaconda.com/pkgs/main/win-64/networkx-3.2.1-py311haa95532_0.conda
   hash:
-    md5: 9273ea4af75efda4d16a15b118eadafc
-    sha256: 9bc7ac15b3386e4b4dbc562a62a5bf5405a0908b4437a5ac90ff20c76d2925fc
+    md5: 346247de91ba2dfe64e3efbd847c0976
+    sha256: 5b853f0ef202ba822aa06da9866f0e702f05d37dc283ce8228a1a82f2ddd72ad
   category: main
   optional: false
 - name: nspr
@@ -7482,7 +7482,7 @@ package:
   category: main
   optional: false
 - name: scipy
-  version: 1.13.0
+  version: 1.13.1
   manager: conda
   platform: linux-64
   dependencies:
@@ -7496,10 +7496,10 @@ package:
     numpy: '>=1.23.5,<1.29'
     pybind11-abi: '4'
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/linux-64/scipy-1.13.0-py311h08b1b3b_0.conda
+  url: https://repo.anaconda.com/pkgs/main/linux-64/scipy-1.13.1-py311h08b1b3b_0.conda
   hash:
-    md5: f8273aff9a94bb133c737bf5030a57cb
-    sha256: 0ca27bdbd5e50b0b7336b46b4af1a320fe1531941965c61d1b89af87c75f2a5f
+    md5: 2832a6ebecb55b336944b0b4942ea505
+    sha256: a3eda1e0d77b2bc4063213d28c9b2d145ba1c623ba8120591373cd335834150a
   category: main
   optional: false
 - name: scipy
@@ -7523,26 +7523,26 @@ package:
   category: main
   optional: false
 - name: scipy
-  version: 1.13.0
+  version: 1.13.1
   manager: conda
   platform: osx-arm64
   dependencies:
     blas: '*'
-    libcxx: '>=12.0.0'
+    libcxx: '>=14.0.6'
     libgfortran: 5.*
     libgfortran5: '>=11.3.0'
     libopenblas: '>=0.3.21,<1.0a0'
     numpy: '>=1.23.5,<1.29'
     pybind11-abi: '4'
     python: '>=3.11,<3.12.0a0'
-  url: https://repo.anaconda.com/pkgs/main/osx-arm64/scipy-1.13.0-py311hc76d9b0_0.conda
+  url: https://repo.anaconda.com/pkgs/main/osx-arm64/scipy-1.13.1-py311hac8794a_0.conda
   hash:
-    md5: 9e8b55570018bafbdb45ca6026903f0c
-    sha256: 3eaf828d926face93c922000d37b2f24b12199b7e13cd28dc69d63ad45bd8068
+    md5: 1d1e8b8421659f350ee6ca11bc763566
+    sha256: d12614450f25d379a49e1b120e5f0cde4418c2a8538dcbcd03a5a561945259d5
   category: main
   optional: false
 - name: scipy
-  version: 1.13.0
+  version: 1.13.1
   manager: conda
   platform: win-64
   dependencies:
@@ -7554,11 +7554,11 @@ package:
     pybind11-abi: '5'
     python: '>=3.11,<3.12.0a0'
     vc: '>=14.2,<15.0a0'
-    vs2015_runtime: '>=14.27.29016,<15.0a0'
-  url: https://repo.anaconda.com/pkgs/main/win-64/scipy-1.13.0-py311h9f229c6_0.conda
+    vs2015_runtime: '>=14.29.30133,<15.0a0'
+  url: https://repo.anaconda.com/pkgs/main/win-64/scipy-1.13.1-py311h9f229c6_0.conda
   hash:
-    md5: e7abee438d236cfaa9ebef967a10c9ee
-    sha256: bfc3aa71a45d709f71a5a940b593275e9b86bfef61e76437a62ecd608f05b8d8
+    md5: 9b9a4ac6df6aab4d95bb71cb86e2ac56
+    sha256: 52b95dfc5ce3be241defd5be5afbb34b5a785075489c824c5bae9d130f9ea0bb
   category: main
   optional: false
 - name: setuptools
@@ -8620,6 +8620,832 @@ package:
     sha256: 01cba6d8563cad2bf4b6e26ba8fa59221e47b9d2cd65249554a8afe5fe7cae0c
   category: main
   optional: false
+- name: affine
+  version: 2.4.0
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/0b/f7/85273299ab57117850cc0a936c64151171fac4da49bc6fba0dad984a7c5f/affine-2.4.0-py3-none-any.whl
+  hash:
+    sha256: 8a3df80e2b2378aef598a83c1392efd47967afec4242021a0b06b4c7cbc61a92
+  category: main
+  optional: false
+- name: affine
+  version: 2.4.0
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/0b/f7/85273299ab57117850cc0a936c64151171fac4da49bc6fba0dad984a7c5f/affine-2.4.0-py3-none-any.whl
+  hash:
+    sha256: 8a3df80e2b2378aef598a83c1392efd47967afec4242021a0b06b4c7cbc61a92
+  category: main
+  optional: false
+- name: affine
+  version: 2.4.0
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/0b/f7/85273299ab57117850cc0a936c64151171fac4da49bc6fba0dad984a7c5f/affine-2.4.0-py3-none-any.whl
+  hash:
+    sha256: 8a3df80e2b2378aef598a83c1392efd47967afec4242021a0b06b4c7cbc61a92
+  category: main
+  optional: false
+- name: affine
+  version: 2.4.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/0b/f7/85273299ab57117850cc0a936c64151171fac4da49bc6fba0dad984a7c5f/affine-2.4.0-py3-none-any.whl
+  hash:
+    sha256: 8a3df80e2b2378aef598a83c1392efd47967afec4242021a0b06b4c7cbc61a92
+  category: main
+  optional: false
+- name: alembic
+  version: 1.13.1
+  manager: pip
+  platform: linux-64
+  dependencies:
+    sqlalchemy: '>=1.3.0'
+    mako: '*'
+    typing-extensions: '>=4'
+  url: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
+  hash:
+    sha256: 2edcc97bed0bd3272611ce3a98d98279e9c209e7186e43e75bbb1b2bdfdbcc43
+  category: main
+  optional: false
+- name: alembic
+  version: 1.13.1
+  manager: pip
+  platform: osx-64
+  dependencies:
+    sqlalchemy: '>=1.3.0'
+    mako: '*'
+    typing-extensions: '>=4'
+  url: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
+  hash:
+    sha256: 2edcc97bed0bd3272611ce3a98d98279e9c209e7186e43e75bbb1b2bdfdbcc43
+  category: main
+  optional: false
+- name: alembic
+  version: 1.13.1
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    sqlalchemy: '>=1.3.0'
+    mako: '*'
+    typing-extensions: '>=4'
+  url: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
+  hash:
+    sha256: 2edcc97bed0bd3272611ce3a98d98279e9c209e7186e43e75bbb1b2bdfdbcc43
+  category: main
+  optional: false
+- name: alembic
+  version: 1.13.1
+  manager: pip
+  platform: win-64
+  dependencies:
+    sqlalchemy: '>=1.3.0'
+    mako: '*'
+    typing-extensions: '>=4'
+  url: https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl
+  hash:
+    sha256: 2edcc97bed0bd3272611ce3a98d98279e9c209e7186e43e75bbb1b2bdfdbcc43
+  category: main
+  optional: false
+- name: aniso8601
+  version: 9.0.1
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/e3/04/e97c12dc034791d7b504860acfcdd2963fa21ae61eaca1c9d31245f812c3/aniso8601-9.0.1-py2.py3-none-any.whl
+  hash:
+    sha256: 1d2b7ef82963909e93c4f24ce48d4de9e66009a21bf1c1e1c85bdd0812fe412f
+  category: main
+  optional: false
+- name: aniso8601
+  version: 9.0.1
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/e3/04/e97c12dc034791d7b504860acfcdd2963fa21ae61eaca1c9d31245f812c3/aniso8601-9.0.1-py2.py3-none-any.whl
+  hash:
+    sha256: 1d2b7ef82963909e93c4f24ce48d4de9e66009a21bf1c1e1c85bdd0812fe412f
+  category: main
+  optional: false
+- name: aniso8601
+  version: 9.0.1
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/e3/04/e97c12dc034791d7b504860acfcdd2963fa21ae61eaca1c9d31245f812c3/aniso8601-9.0.1-py2.py3-none-any.whl
+  hash:
+    sha256: 1d2b7ef82963909e93c4f24ce48d4de9e66009a21bf1c1e1c85bdd0812fe412f
+  category: main
+  optional: false
+- name: aniso8601
+  version: 9.0.1
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/e3/04/e97c12dc034791d7b504860acfcdd2963fa21ae61eaca1c9d31245f812c3/aniso8601-9.0.1-py2.py3-none-any.whl
+  hash:
+    sha256: 1d2b7ef82963909e93c4f24ce48d4de9e66009a21bf1c1e1c85bdd0812fe412f
+  category: main
+  optional: false
+- name: blinker
+  version: 1.8.2
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/bb/2a/10164ed1f31196a2f7f3799368a821765c62851ead0e630ab52b8e14b4d0/blinker-1.8.2-py3-none-any.whl
+  hash:
+    sha256: 1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01
+  category: main
+  optional: false
+- name: blinker
+  version: 1.8.2
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/bb/2a/10164ed1f31196a2f7f3799368a821765c62851ead0e630ab52b8e14b4d0/blinker-1.8.2-py3-none-any.whl
+  hash:
+    sha256: 1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01
+  category: main
+  optional: false
+- name: blinker
+  version: 1.8.2
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/bb/2a/10164ed1f31196a2f7f3799368a821765c62851ead0e630ab52b8e14b4d0/blinker-1.8.2-py3-none-any.whl
+  hash:
+    sha256: 1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01
+  category: main
+  optional: false
+- name: blinker
+  version: 1.8.2
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/bb/2a/10164ed1f31196a2f7f3799368a821765c62851ead0e630ab52b8e14b4d0/blinker-1.8.2-py3-none-any.whl
+  hash:
+    sha256: 1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01
+  category: main
+  optional: false
+- name: cachetools
+  version: 5.3.3
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fb/2b/a64c2d25a37aeb921fddb929111413049fc5f8b9a4c1aefaffaafe768d54/cachetools-5.3.3-py3-none-any.whl
+  hash:
+    sha256: 0abad1021d3f8325b2fc1d2e9c8b9c9d57b04c3932657a72465447332c24d945
+  category: main
+  optional: false
+- name: cachetools
+  version: 5.3.3
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fb/2b/a64c2d25a37aeb921fddb929111413049fc5f8b9a4c1aefaffaafe768d54/cachetools-5.3.3-py3-none-any.whl
+  hash:
+    sha256: 0abad1021d3f8325b2fc1d2e9c8b9c9d57b04c3932657a72465447332c24d945
+  category: main
+  optional: false
+- name: cachetools
+  version: 5.3.3
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fb/2b/a64c2d25a37aeb921fddb929111413049fc5f8b9a4c1aefaffaafe768d54/cachetools-5.3.3-py3-none-any.whl
+  hash:
+    sha256: 0abad1021d3f8325b2fc1d2e9c8b9c9d57b04c3932657a72465447332c24d945
+  category: main
+  optional: false
+- name: cachetools
+  version: 5.3.3
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fb/2b/a64c2d25a37aeb921fddb929111413049fc5f8b9a4c1aefaffaafe768d54/cachetools-5.3.3-py3-none-any.whl
+  hash:
+    sha256: 0abad1021d3f8325b2fc1d2e9c8b9c9d57b04c3932657a72465447332c24d945
+  category: main
+  optional: false
+- name: cloudpickle
+  version: 3.0.0
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/96/43/dae06432d0c4b1dc9e9149ad37b4ca8384cf6eb7700cd9215b177b914f0a/cloudpickle-3.0.0-py3-none-any.whl
+  hash:
+    sha256: 246ee7d0c295602a036e86369c77fecda4ab17b506496730f2f576d9016fd9c7
+  category: main
+  optional: false
+- name: cloudpickle
+  version: 3.0.0
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/96/43/dae06432d0c4b1dc9e9149ad37b4ca8384cf6eb7700cd9215b177b914f0a/cloudpickle-3.0.0-py3-none-any.whl
+  hash:
+    sha256: 246ee7d0c295602a036e86369c77fecda4ab17b506496730f2f576d9016fd9c7
+  category: main
+  optional: false
+- name: cloudpickle
+  version: 3.0.0
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/96/43/dae06432d0c4b1dc9e9149ad37b4ca8384cf6eb7700cd9215b177b914f0a/cloudpickle-3.0.0-py3-none-any.whl
+  hash:
+    sha256: 246ee7d0c295602a036e86369c77fecda4ab17b506496730f2f576d9016fd9c7
+  category: main
+  optional: false
+- name: cloudpickle
+  version: 3.0.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/96/43/dae06432d0c4b1dc9e9149ad37b4ca8384cf6eb7700cd9215b177b914f0a/cloudpickle-3.0.0-py3-none-any.whl
+  hash:
+    sha256: 246ee7d0c295602a036e86369c77fecda4ab17b506496730f2f576d9016fd9c7
+  category: main
+  optional: false
+- name: deprecated
+  version: 1.2.14
+  manager: pip
+  platform: linux-64
+  dependencies:
+    wrapt: '>=1.10,<2'
+  url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
+  hash:
+    sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+  category: main
+  optional: false
+- name: deprecated
+  version: 1.2.14
+  manager: pip
+  platform: osx-64
+  dependencies:
+    wrapt: '>=1.10,<2'
+  url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
+  hash:
+    sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+  category: main
+  optional: false
+- name: deprecated
+  version: 1.2.14
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    wrapt: '>=1.10,<2'
+  url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
+  hash:
+    sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+  category: main
+  optional: false
+- name: deprecated
+  version: 1.2.14
+  manager: pip
+  platform: win-64
+  dependencies:
+    wrapt: '>=1.10,<2'
+  url: https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl
+  hash:
+    sha256: 6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c
+  category: main
+  optional: false
+- name: docker
+  version: 7.1.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    requests: '>=2.26.0'
+    urllib3: '>=1.26.0'
+  url: https://files.pythonhosted.org/packages/e3/26/57c6fb270950d476074c087527a558ccb6f4436657314bfb6cdf484114c4/docker-7.1.0-py3-none-any.whl
+  hash:
+    sha256: c96b93b7f0a746f9e77d325bcfb87422a3d8bd4f03136ae8a85b37f1898d5fc0
+  category: main
+  optional: false
+- name: docker
+  version: 7.1.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    requests: '>=2.26.0'
+    urllib3: '>=1.26.0'
+  url: https://files.pythonhosted.org/packages/e3/26/57c6fb270950d476074c087527a558ccb6f4436657314bfb6cdf484114c4/docker-7.1.0-py3-none-any.whl
+  hash:
+    sha256: c96b93b7f0a746f9e77d325bcfb87422a3d8bd4f03136ae8a85b37f1898d5fc0
+  category: main
+  optional: false
+- name: docker
+  version: 7.1.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    requests: '>=2.26.0'
+    urllib3: '>=1.26.0'
+  url: https://files.pythonhosted.org/packages/e3/26/57c6fb270950d476074c087527a558ccb6f4436657314bfb6cdf484114c4/docker-7.1.0-py3-none-any.whl
+  hash:
+    sha256: c96b93b7f0a746f9e77d325bcfb87422a3d8bd4f03136ae8a85b37f1898d5fc0
+  category: main
+  optional: false
+- name: docker
+  version: 7.1.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    pywin32: '>=304'
+    requests: '>=2.26.0'
+    urllib3: '>=1.26.0'
+  url: https://files.pythonhosted.org/packages/e3/26/57c6fb270950d476074c087527a558ccb6f4436657314bfb6cdf484114c4/docker-7.1.0-py3-none-any.whl
+  hash:
+    sha256: c96b93b7f0a746f9e77d325bcfb87422a3d8bd4f03136ae8a85b37f1898d5fc0
+  category: main
+  optional: false
+- name: entrypoints
+  version: '0.4'
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl
+  hash:
+    sha256: f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f
+  category: main
+  optional: false
+- name: entrypoints
+  version: '0.4'
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl
+  hash:
+    sha256: f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f
+  category: main
+  optional: false
+- name: entrypoints
+  version: '0.4'
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl
+  hash:
+    sha256: f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f
+  category: main
+  optional: false
+- name: entrypoints
+  version: '0.4'
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl
+  hash:
+    sha256: f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f
+  category: main
+  optional: false
+- name: flask
+  version: 3.0.3
+  manager: pip
+  platform: linux-64
+  dependencies:
+    werkzeug: '>=3.0.0'
+    jinja2: '>=3.1.2'
+    itsdangerous: '>=2.1.2'
+    click: '>=8.1.3'
+    blinker: '>=1.6.2'
+  url: https://files.pythonhosted.org/packages/61/80/ffe1da13ad9300f87c93af113edd0638c75138c42a0994becfacac078c06/flask-3.0.3-py3-none-any.whl
+  hash:
+    sha256: 34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3
+  category: main
+  optional: false
+- name: flask
+  version: 3.0.3
+  manager: pip
+  platform: osx-64
+  dependencies:
+    werkzeug: '>=3.0.0'
+    jinja2: '>=3.1.2'
+    itsdangerous: '>=2.1.2'
+    click: '>=8.1.3'
+    blinker: '>=1.6.2'
+  url: https://files.pythonhosted.org/packages/61/80/ffe1da13ad9300f87c93af113edd0638c75138c42a0994becfacac078c06/flask-3.0.3-py3-none-any.whl
+  hash:
+    sha256: 34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3
+  category: main
+  optional: false
+- name: flask
+  version: 3.0.3
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    werkzeug: '>=3.0.0'
+    jinja2: '>=3.1.2'
+    itsdangerous: '>=2.1.2'
+    click: '>=8.1.3'
+    blinker: '>=1.6.2'
+  url: https://files.pythonhosted.org/packages/61/80/ffe1da13ad9300f87c93af113edd0638c75138c42a0994becfacac078c06/flask-3.0.3-py3-none-any.whl
+  hash:
+    sha256: 34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3
+  category: main
+  optional: false
+- name: flask
+  version: 3.0.3
+  manager: pip
+  platform: win-64
+  dependencies:
+    werkzeug: '>=3.0.0'
+    jinja2: '>=3.1.2'
+    itsdangerous: '>=2.1.2'
+    click: '>=8.1.3'
+    blinker: '>=1.6.2'
+  url: https://files.pythonhosted.org/packages/61/80/ffe1da13ad9300f87c93af113edd0638c75138c42a0994becfacac078c06/flask-3.0.3-py3-none-any.whl
+  hash:
+    sha256: 34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3
+  category: main
+  optional: false
+- name: geographiclib
+  version: '2.0'
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/9f/5a/a26132406f1f40cf51ea349a5f11b0a46cec02a2031ff82e391c2537247a/geographiclib-2.0-py3-none-any.whl
+  hash:
+    sha256: 6b7225248e45ff7edcee32becc4e0a1504c606ac5ee163a5656d482e0cd38734
+  category: main
+  optional: false
+- name: geographiclib
+  version: '2.0'
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/9f/5a/a26132406f1f40cf51ea349a5f11b0a46cec02a2031ff82e391c2537247a/geographiclib-2.0-py3-none-any.whl
+  hash:
+    sha256: 6b7225248e45ff7edcee32becc4e0a1504c606ac5ee163a5656d482e0cd38734
+  category: main
+  optional: false
+- name: geographiclib
+  version: '2.0'
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/9f/5a/a26132406f1f40cf51ea349a5f11b0a46cec02a2031ff82e391c2537247a/geographiclib-2.0-py3-none-any.whl
+  hash:
+    sha256: 6b7225248e45ff7edcee32becc4e0a1504c606ac5ee163a5656d482e0cd38734
+  category: main
+  optional: false
+- name: geographiclib
+  version: '2.0'
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/9f/5a/a26132406f1f40cf51ea349a5f11b0a46cec02a2031ff82e391c2537247a/geographiclib-2.0-py3-none-any.whl
+  hash:
+    sha256: 6b7225248e45ff7edcee32becc4e0a1504c606ac5ee163a5656d482e0cd38734
+  category: main
+  optional: false
+- name: geopy
+  version: 2.4.1
+  manager: pip
+  platform: linux-64
+  dependencies:
+    geographiclib: '>=1.52,<3'
+  url: https://files.pythonhosted.org/packages/e5/15/cf2a69ade4b194aa524ac75112d5caac37414b20a3a03e6865dfe0bd1539/geopy-2.4.1-py3-none-any.whl
+  hash:
+    sha256: ae8b4bc5c1131820f4d75fce9d4aaaca0c85189b3aa5d64c3dcaf5e3b7b882a7
+  category: main
+  optional: false
+- name: geopy
+  version: 2.4.1
+  manager: pip
+  platform: osx-64
+  dependencies:
+    geographiclib: '>=1.52,<3'
+  url: https://files.pythonhosted.org/packages/e5/15/cf2a69ade4b194aa524ac75112d5caac37414b20a3a03e6865dfe0bd1539/geopy-2.4.1-py3-none-any.whl
+  hash:
+    sha256: ae8b4bc5c1131820f4d75fce9d4aaaca0c85189b3aa5d64c3dcaf5e3b7b882a7
+  category: main
+  optional: false
+- name: geopy
+  version: 2.4.1
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    geographiclib: '>=1.52,<3'
+  url: https://files.pythonhosted.org/packages/e5/15/cf2a69ade4b194aa524ac75112d5caac37414b20a3a03e6865dfe0bd1539/geopy-2.4.1-py3-none-any.whl
+  hash:
+    sha256: ae8b4bc5c1131820f4d75fce9d4aaaca0c85189b3aa5d64c3dcaf5e3b7b882a7
+  category: main
+  optional: false
+- name: geopy
+  version: 2.4.1
+  manager: pip
+  platform: win-64
+  dependencies:
+    geographiclib: '>=1.52,<3'
+  url: https://files.pythonhosted.org/packages/e5/15/cf2a69ade4b194aa524ac75112d5caac37414b20a3a03e6865dfe0bd1539/geopy-2.4.1-py3-none-any.whl
+  hash:
+    sha256: ae8b4bc5c1131820f4d75fce9d4aaaca0c85189b3aa5d64c3dcaf5e3b7b882a7
+  category: main
+  optional: false
+- name: gitdb
+  version: 4.0.11
+  manager: pip
+  platform: linux-64
+  dependencies:
+    smmap: '>=3.0.1,<6'
+  url: https://files.pythonhosted.org/packages/fd/5b/8f0c4a5bb9fd491c277c21eff7ccae71b47d43c4446c9d0c6cff2fe8c2c4/gitdb-4.0.11-py3-none-any.whl
+  hash:
+    sha256: 81a3407ddd2ee8df444cbacea00e2d038e40150acfa3001696fe0dcf1d3adfa4
+  category: main
+  optional: false
+- name: gitdb
+  version: 4.0.11
+  manager: pip
+  platform: osx-64
+  dependencies:
+    smmap: '>=3.0.1,<6'
+  url: https://files.pythonhosted.org/packages/fd/5b/8f0c4a5bb9fd491c277c21eff7ccae71b47d43c4446c9d0c6cff2fe8c2c4/gitdb-4.0.11-py3-none-any.whl
+  hash:
+    sha256: 81a3407ddd2ee8df444cbacea00e2d038e40150acfa3001696fe0dcf1d3adfa4
+  category: main
+  optional: false
+- name: gitdb
+  version: 4.0.11
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    smmap: '>=3.0.1,<6'
+  url: https://files.pythonhosted.org/packages/fd/5b/8f0c4a5bb9fd491c277c21eff7ccae71b47d43c4446c9d0c6cff2fe8c2c4/gitdb-4.0.11-py3-none-any.whl
+  hash:
+    sha256: 81a3407ddd2ee8df444cbacea00e2d038e40150acfa3001696fe0dcf1d3adfa4
+  category: main
+  optional: false
+- name: gitdb
+  version: 4.0.11
+  manager: pip
+  platform: win-64
+  dependencies:
+    smmap: '>=3.0.1,<6'
+  url: https://files.pythonhosted.org/packages/fd/5b/8f0c4a5bb9fd491c277c21eff7ccae71b47d43c4446c9d0c6cff2fe8c2c4/gitdb-4.0.11-py3-none-any.whl
+  hash:
+    sha256: 81a3407ddd2ee8df444cbacea00e2d038e40150acfa3001696fe0dcf1d3adfa4
+  category: main
+  optional: false
+- name: gitpython
+  version: 3.1.43
+  manager: pip
+  platform: linux-64
+  dependencies:
+    gitdb: '>=4.0.1,<5'
+  url: https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl
+  hash:
+    sha256: eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff
+  category: main
+  optional: false
+- name: gitpython
+  version: 3.1.43
+  manager: pip
+  platform: osx-64
+  dependencies:
+    gitdb: '>=4.0.1,<5'
+  url: https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl
+  hash:
+    sha256: eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff
+  category: main
+  optional: false
+- name: gitpython
+  version: 3.1.43
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    gitdb: '>=4.0.1,<5'
+  url: https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl
+  hash:
+    sha256: eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff
+  category: main
+  optional: false
+- name: gitpython
+  version: 3.1.43
+  manager: pip
+  platform: win-64
+  dependencies:
+    gitdb: '>=4.0.1,<5'
+  url: https://files.pythonhosted.org/packages/e9/bd/cc3a402a6439c15c3d4294333e13042b915bbeab54edc457c723931fed3f/GitPython-3.1.43-py3-none-any.whl
+  hash:
+    sha256: eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff
+  category: main
+  optional: false
+- name: graphene
+  version: '3.3'
+  manager: pip
+  platform: linux-64
+  dependencies:
+    graphql-core: '>=3.1,<3.3'
+    graphql-relay: '>=3.1,<3.3'
+    aniso8601: '>=8,<10'
+  url: https://files.pythonhosted.org/packages/24/70/96f6027cdfc9bb89fc07627b615cb43fb1c443c93498412beaeaf157e9f1/graphene-3.3-py2.py3-none-any.whl
+  hash:
+    sha256: bb3810be33b54cb3e6969506671eb72319e8d7ba0d5ca9c8066472f75bf35a38
+  category: main
+  optional: false
+- name: graphene
+  version: '3.3'
+  manager: pip
+  platform: osx-64
+  dependencies:
+    graphql-core: '>=3.1,<3.3'
+    graphql-relay: '>=3.1,<3.3'
+    aniso8601: '>=8,<10'
+  url: https://files.pythonhosted.org/packages/24/70/96f6027cdfc9bb89fc07627b615cb43fb1c443c93498412beaeaf157e9f1/graphene-3.3-py2.py3-none-any.whl
+  hash:
+    sha256: bb3810be33b54cb3e6969506671eb72319e8d7ba0d5ca9c8066472f75bf35a38
+  category: main
+  optional: false
+- name: graphene
+  version: '3.3'
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    graphql-core: '>=3.1,<3.3'
+    graphql-relay: '>=3.1,<3.3'
+    aniso8601: '>=8,<10'
+  url: https://files.pythonhosted.org/packages/24/70/96f6027cdfc9bb89fc07627b615cb43fb1c443c93498412beaeaf157e9f1/graphene-3.3-py2.py3-none-any.whl
+  hash:
+    sha256: bb3810be33b54cb3e6969506671eb72319e8d7ba0d5ca9c8066472f75bf35a38
+  category: main
+  optional: false
+- name: graphene
+  version: '3.3'
+  manager: pip
+  platform: win-64
+  dependencies:
+    graphql-core: '>=3.1,<3.3'
+    graphql-relay: '>=3.1,<3.3'
+    aniso8601: '>=8,<10'
+  url: https://files.pythonhosted.org/packages/24/70/96f6027cdfc9bb89fc07627b615cb43fb1c443c93498412beaeaf157e9f1/graphene-3.3-py2.py3-none-any.whl
+  hash:
+    sha256: bb3810be33b54cb3e6969506671eb72319e8d7ba0d5ca9c8066472f75bf35a38
+  category: main
+  optional: false
+- name: graphql-core
+  version: 3.2.3
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/f8/39/e5143e7ec70939d2076c1165ae9d4a3815597019c4d797b7f959cf778600/graphql_core-3.2.3-py3-none-any.whl
+  hash:
+    sha256: 5766780452bd5ec8ba133f8bf287dc92713e3868ddd83aee4faab9fc3e303dc3
+  category: main
+  optional: false
+- name: graphql-core
+  version: 3.2.3
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/f8/39/e5143e7ec70939d2076c1165ae9d4a3815597019c4d797b7f959cf778600/graphql_core-3.2.3-py3-none-any.whl
+  hash:
+    sha256: 5766780452bd5ec8ba133f8bf287dc92713e3868ddd83aee4faab9fc3e303dc3
+  category: main
+  optional: false
+- name: graphql-core
+  version: 3.2.3
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/f8/39/e5143e7ec70939d2076c1165ae9d4a3815597019c4d797b7f959cf778600/graphql_core-3.2.3-py3-none-any.whl
+  hash:
+    sha256: 5766780452bd5ec8ba133f8bf287dc92713e3868ddd83aee4faab9fc3e303dc3
+  category: main
+  optional: false
+- name: graphql-core
+  version: 3.2.3
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/f8/39/e5143e7ec70939d2076c1165ae9d4a3815597019c4d797b7f959cf778600/graphql_core-3.2.3-py3-none-any.whl
+  hash:
+    sha256: 5766780452bd5ec8ba133f8bf287dc92713e3868ddd83aee4faab9fc3e303dc3
+  category: main
+  optional: false
+- name: graphql-relay
+  version: 3.2.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    graphql-core: '>=3.2,<3.3'
+  url: https://files.pythonhosted.org/packages/74/16/a4cf06adbc711bd364a73ce043b0b08d8fa5aae3df11b6ee4248bcdad2e0/graphql_relay-3.2.0-py3-none-any.whl
+  hash:
+    sha256: c9b22bd28b170ba1fe674c74384a8ff30a76c8e26f88ac3aa1584dd3179953e5
+  category: main
+  optional: false
+- name: graphql-relay
+  version: 3.2.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    graphql-core: '>=3.2,<3.3'
+  url: https://files.pythonhosted.org/packages/74/16/a4cf06adbc711bd364a73ce043b0b08d8fa5aae3df11b6ee4248bcdad2e0/graphql_relay-3.2.0-py3-none-any.whl
+  hash:
+    sha256: c9b22bd28b170ba1fe674c74384a8ff30a76c8e26f88ac3aa1584dd3179953e5
+  category: main
+  optional: false
+- name: graphql-relay
+  version: 3.2.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    graphql-core: '>=3.2,<3.3'
+  url: https://files.pythonhosted.org/packages/74/16/a4cf06adbc711bd364a73ce043b0b08d8fa5aae3df11b6ee4248bcdad2e0/graphql_relay-3.2.0-py3-none-any.whl
+  hash:
+    sha256: c9b22bd28b170ba1fe674c74384a8ff30a76c8e26f88ac3aa1584dd3179953e5
+  category: main
+  optional: false
+- name: graphql-relay
+  version: 3.2.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    graphql-core: '>=3.2,<3.3'
+  url: https://files.pythonhosted.org/packages/74/16/a4cf06adbc711bd364a73ce043b0b08d8fa5aae3df11b6ee4248bcdad2e0/graphql_relay-3.2.0-py3-none-any.whl
+  hash:
+    sha256: c9b22bd28b170ba1fe674c74384a8ff30a76c8e26f88ac3aa1584dd3179953e5
+  category: main
+  optional: false
+- name: greenlet
+  version: 3.0.3
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/c6/1f/12d5a6cc26e8b483c2e7975f9c22e088ac735c0d8dcb8a8f72d31a4e5f04/greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+  hash:
+    sha256: b7f009caad047246ed379e1c4dbcb8b020f0a390667ea74d2387be2998f58a22
+  category: main
+  optional: false
+- name: greenlet
+  version: 3.0.3
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6e/20/68a278a6f93fa36e21cfc3d7599399a8a831225644eb3b6b18755cd3d6fc/greenlet-3.0.3-cp311-cp311-macosx_11_0_universal2.whl
+  hash:
+    sha256: b1b5667cced97081bf57b8fa1d6bfca67814b0afd38208d52538316e9422fc61
+  category: main
+  optional: false
+- name: greenlet
+  version: 3.0.3
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6e/20/68a278a6f93fa36e21cfc3d7599399a8a831225644eb3b6b18755cd3d6fc/greenlet-3.0.3-cp311-cp311-macosx_11_0_universal2.whl
+  hash:
+    sha256: b1b5667cced97081bf57b8fa1d6bfca67814b0afd38208d52538316e9422fc61
+  category: main
+  optional: false
+- name: greenlet
+  version: 3.0.3
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/47/79/26d54d7d700ef65b689fc2665a40846d13e834da0486674a8d4f0f371a47/greenlet-3.0.3-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: 1ea188d4f49089fc6fb283845ab18a2518d279c7cd9da1065d7a84e991748728
+  category: main
+  optional: false
+- name: gunicorn
+  version: 22.0.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    packaging: '*'
+  url: https://files.pythonhosted.org/packages/29/97/6d610ae77b5633d24b69c2ff1ac3044e0e565ecbd1ec188f02c45073054c/gunicorn-22.0.0-py3-none-any.whl
+  hash:
+    sha256: 350679f91b24062c86e386e198a15438d53a7a8207235a78ba1b53df4c4378d9
+  category: main
+  optional: false
+- name: gunicorn
+  version: 22.0.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    packaging: '*'
+  url: https://files.pythonhosted.org/packages/29/97/6d610ae77b5633d24b69c2ff1ac3044e0e565ecbd1ec188f02c45073054c/gunicorn-22.0.0-py3-none-any.whl
+  hash:
+    sha256: 350679f91b24062c86e386e198a15438d53a7a8207235a78ba1b53df4c4378d9
+  category: main
+  optional: false
+- name: gunicorn
+  version: 22.0.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    packaging: '*'
+  url: https://files.pythonhosted.org/packages/29/97/6d610ae77b5633d24b69c2ff1ac3044e0e565ecbd1ec188f02c45073054c/gunicorn-22.0.0-py3-none-any.whl
+  hash:
+    sha256: 350679f91b24062c86e386e198a15438d53a7a8207235a78ba1b53df4c4378d9
+  category: main
+  optional: false
 - name: h3
   version: 3.7.7
   manager: pip
@@ -8658,5 +9484,1313 @@ package:
   url: https://files.pythonhosted.org/packages/bf/f6/bf29a851f0fd57febe6a3d12aef4d6d5adaf2097e193b9dca7e47ebc2e15/h3-3.7.7-cp311-cp311-win_amd64.whl
   hash:
     sha256: 836e74313ff55324485cd7e07783bc67df3191ec08a318035d7cd8ee0b0badab
+  category: main
+  optional: false
+- name: importlib-metadata
+  version: 7.1.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    zipp: '>=0.5'
+  url: https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl
+  hash:
+    sha256: 30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570
+  category: main
+  optional: false
+- name: importlib-metadata
+  version: 7.1.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    zipp: '>=0.5'
+  url: https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl
+  hash:
+    sha256: 30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570
+  category: main
+  optional: false
+- name: importlib-metadata
+  version: 7.1.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    zipp: '>=0.5'
+  url: https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl
+  hash:
+    sha256: 30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570
+  category: main
+  optional: false
+- name: importlib-metadata
+  version: 7.1.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    zipp: '>=0.5'
+  url: https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl
+  hash:
+    sha256: 30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570
+  category: main
+  optional: false
+- name: itsdangerous
+  version: 2.2.0
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl
+  hash:
+    sha256: c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef
+  category: main
+  optional: false
+- name: itsdangerous
+  version: 2.2.0
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl
+  hash:
+    sha256: c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef
+  category: main
+  optional: false
+- name: itsdangerous
+  version: 2.2.0
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl
+  hash:
+    sha256: c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef
+  category: main
+  optional: false
+- name: itsdangerous
+  version: 2.2.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl
+  hash:
+    sha256: c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef
+  category: main
+  optional: false
+- name: mako
+  version: 1.3.5
+  manager: pip
+  platform: linux-64
+  dependencies:
+    markupsafe: '>=0.9.2'
+  url: https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl
+  hash:
+    sha256: 260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a
+  category: main
+  optional: false
+- name: mako
+  version: 1.3.5
+  manager: pip
+  platform: osx-64
+  dependencies:
+    markupsafe: '>=0.9.2'
+  url: https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl
+  hash:
+    sha256: 260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a
+  category: main
+  optional: false
+- name: mako
+  version: 1.3.5
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    markupsafe: '>=0.9.2'
+  url: https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl
+  hash:
+    sha256: 260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a
+  category: main
+  optional: false
+- name: mako
+  version: 1.3.5
+  manager: pip
+  platform: win-64
+  dependencies:
+    markupsafe: '>=0.9.2'
+  url: https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl
+  hash:
+    sha256: 260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a
+  category: main
+  optional: false
+- name: markdown
+  version: '3.6'
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
+  hash:
+    sha256: 48f276f4d8cfb8ce6527c8f79e2ee29708508bf4d40aa410fbc3b4ee832c850f
+  category: main
+  optional: false
+- name: markdown
+  version: '3.6'
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
+  hash:
+    sha256: 48f276f4d8cfb8ce6527c8f79e2ee29708508bf4d40aa410fbc3b4ee832c850f
+  category: main
+  optional: false
+- name: markdown
+  version: '3.6'
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
+  hash:
+    sha256: 48f276f4d8cfb8ce6527c8f79e2ee29708508bf4d40aa410fbc3b4ee832c850f
+  category: main
+  optional: false
+- name: markdown
+  version: '3.6'
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl
+  hash:
+    sha256: 48f276f4d8cfb8ce6527c8f79e2ee29708508bf4d40aa410fbc3b4ee832c850f
+  category: main
+  optional: false
+- name: mlflow
+  version: 2.13.2
+  manager: pip
+  platform: linux-64
+  dependencies:
+    flask: <4
+    alembic: <1.10.0 || >1.10.0,<2
+    cachetools: '>=5.0.0,<6'
+    click: '>=7.0,<9'
+    cloudpickle: <4
+    docker: '>=4.0.0,<8'
+    entrypoints: <1
+    gitpython: '>=3.1.9,<4'
+    graphene: <4
+    importlib-metadata: '>=3.7.0,<4.7.0 || >4.7.0,<8'
+    markdown: '>=3.3,<4'
+    matplotlib: <4
+    numpy: <2
+    opentelemetry-api: '>=1.0.0,<3'
+    opentelemetry-sdk: '>=1.0.0,<3'
+    packaging: <25
+    pandas: <3
+    protobuf: '>=3.12.0,<5'
+    pyarrow: '>=4.0.0,<16'
+    pytz: <2025
+    pyyaml: '>=5.1,<7'
+    querystring-parser: <2
+    requests: '>=2.17.3,<3'
+    scikit-learn: <2
+    scipy: <2
+    sqlalchemy: '>=1.4.0,<3'
+    sqlparse: '>=0.4.0,<1'
+    jinja2: '>=2.11,<4'
+    gunicorn: <23
+  url: https://files.pythonhosted.org/packages/5c/84/1afd80b82bbb47ff5eb25e26d68f77b972480e26a290ef3c4f3aa066bbed/mlflow-2.13.2-py3-none-any.whl
+  hash:
+    sha256: 728e130085e296780f02c0c57cf085aca39aa40f11fb8deeca99ac625ceaf4db
+  category: main
+  optional: false
+- name: mlflow
+  version: 2.13.2
+  manager: pip
+  platform: osx-64
+  dependencies:
+    flask: <4
+    alembic: <1.10.0 || >1.10.0,<2
+    cachetools: '>=5.0.0,<6'
+    click: '>=7.0,<9'
+    cloudpickle: <4
+    docker: '>=4.0.0,<8'
+    entrypoints: <1
+    gitpython: '>=3.1.9,<4'
+    graphene: <4
+    importlib-metadata: '>=3.7.0,<4.7.0 || >4.7.0,<8'
+    markdown: '>=3.3,<4'
+    matplotlib: <4
+    numpy: <2
+    opentelemetry-api: '>=1.0.0,<3'
+    opentelemetry-sdk: '>=1.0.0,<3'
+    packaging: <25
+    pandas: <3
+    protobuf: '>=3.12.0,<5'
+    pyarrow: '>=4.0.0,<16'
+    pytz: <2025
+    pyyaml: '>=5.1,<7'
+    querystring-parser: <2
+    requests: '>=2.17.3,<3'
+    scikit-learn: <2
+    scipy: <2
+    sqlalchemy: '>=1.4.0,<3'
+    sqlparse: '>=0.4.0,<1'
+    jinja2: '>=2.11,<4'
+    gunicorn: <23
+  url: https://files.pythonhosted.org/packages/5c/84/1afd80b82bbb47ff5eb25e26d68f77b972480e26a290ef3c4f3aa066bbed/mlflow-2.13.2-py3-none-any.whl
+  hash:
+    sha256: 728e130085e296780f02c0c57cf085aca39aa40f11fb8deeca99ac625ceaf4db
+  category: main
+  optional: false
+- name: mlflow
+  version: 2.13.2
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    flask: <4
+    alembic: <1.10.0 || >1.10.0,<2
+    cachetools: '>=5.0.0,<6'
+    click: '>=7.0,<9'
+    cloudpickle: <4
+    docker: '>=4.0.0,<8'
+    entrypoints: <1
+    gitpython: '>=3.1.9,<4'
+    graphene: <4
+    importlib-metadata: '>=3.7.0,<4.7.0 || >4.7.0,<8'
+    markdown: '>=3.3,<4'
+    matplotlib: <4
+    numpy: <2
+    opentelemetry-api: '>=1.0.0,<3'
+    opentelemetry-sdk: '>=1.0.0,<3'
+    packaging: <25
+    pandas: <3
+    protobuf: '>=3.12.0,<5'
+    pyarrow: '>=4.0.0,<16'
+    pytz: <2025
+    pyyaml: '>=5.1,<7'
+    querystring-parser: <2
+    requests: '>=2.17.3,<3'
+    scikit-learn: <2
+    scipy: <2
+    sqlalchemy: '>=1.4.0,<3'
+    sqlparse: '>=0.4.0,<1'
+    jinja2: '>=2.11,<4'
+    gunicorn: <23
+  url: https://files.pythonhosted.org/packages/5c/84/1afd80b82bbb47ff5eb25e26d68f77b972480e26a290ef3c4f3aa066bbed/mlflow-2.13.2-py3-none-any.whl
+  hash:
+    sha256: 728e130085e296780f02c0c57cf085aca39aa40f11fb8deeca99ac625ceaf4db
+  category: main
+  optional: false
+- name: mlflow
+  version: 2.13.2
+  manager: pip
+  platform: win-64
+  dependencies:
+    flask: <4
+    alembic: <1.10.0 || >1.10.0,<2
+    cachetools: '>=5.0.0,<6'
+    click: '>=7.0,<9'
+    cloudpickle: <4
+    docker: '>=4.0.0,<8'
+    entrypoints: <1
+    gitpython: '>=3.1.9,<4'
+    graphene: <4
+    importlib-metadata: '>=3.7.0,<4.7.0 || >4.7.0,<8'
+    markdown: '>=3.3,<4'
+    matplotlib: <4
+    numpy: <2
+    opentelemetry-api: '>=1.0.0,<3'
+    opentelemetry-sdk: '>=1.0.0,<3'
+    packaging: <25
+    pandas: <3
+    protobuf: '>=3.12.0,<5'
+    pyarrow: '>=4.0.0,<16'
+    pytz: <2025
+    pyyaml: '>=5.1,<7'
+    querystring-parser: <2
+    requests: '>=2.17.3,<3'
+    scikit-learn: <2
+    scipy: <2
+    sqlalchemy: '>=1.4.0,<3'
+    sqlparse: '>=0.4.0,<1'
+    jinja2: '>=3.0,<4'
+    waitress: <4
+  url: https://files.pythonhosted.org/packages/5c/84/1afd80b82bbb47ff5eb25e26d68f77b972480e26a290ef3c4f3aa066bbed/mlflow-2.13.2-py3-none-any.whl
+  hash:
+    sha256: 728e130085e296780f02c0c57cf085aca39aa40f11fb8deeca99ac625ceaf4db
+  category: main
+  optional: false
+- name: opentelemetry-api
+  version: 1.25.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    deprecated: '>=1.2.6'
+    importlib-metadata: '>=6.0,<=7.1'
+  url: https://files.pythonhosted.org/packages/7e/b2/4bc5e52c9a23df0ac17dbb23923e609a8269cd67000a712b4f5bcfae1490/opentelemetry_api-1.25.0-py3-none-any.whl
+  hash:
+    sha256: 757fa1aa020a0f8fa139f8959e53dec2051cc26b832e76fa839a6d76ecefd737
+  category: main
+  optional: false
+- name: opentelemetry-api
+  version: 1.25.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    deprecated: '>=1.2.6'
+    importlib-metadata: '>=6.0,<=7.1'
+  url: https://files.pythonhosted.org/packages/7e/b2/4bc5e52c9a23df0ac17dbb23923e609a8269cd67000a712b4f5bcfae1490/opentelemetry_api-1.25.0-py3-none-any.whl
+  hash:
+    sha256: 757fa1aa020a0f8fa139f8959e53dec2051cc26b832e76fa839a6d76ecefd737
+  category: main
+  optional: false
+- name: opentelemetry-api
+  version: 1.25.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    deprecated: '>=1.2.6'
+    importlib-metadata: '>=6.0,<=7.1'
+  url: https://files.pythonhosted.org/packages/7e/b2/4bc5e52c9a23df0ac17dbb23923e609a8269cd67000a712b4f5bcfae1490/opentelemetry_api-1.25.0-py3-none-any.whl
+  hash:
+    sha256: 757fa1aa020a0f8fa139f8959e53dec2051cc26b832e76fa839a6d76ecefd737
+  category: main
+  optional: false
+- name: opentelemetry-api
+  version: 1.25.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    deprecated: '>=1.2.6'
+    importlib-metadata: '>=6.0,<=7.1'
+  url: https://files.pythonhosted.org/packages/7e/b2/4bc5e52c9a23df0ac17dbb23923e609a8269cd67000a712b4f5bcfae1490/opentelemetry_api-1.25.0-py3-none-any.whl
+  hash:
+    sha256: 757fa1aa020a0f8fa139f8959e53dec2051cc26b832e76fa839a6d76ecefd737
+  category: main
+  optional: false
+- name: opentelemetry-sdk
+  version: 1.25.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    opentelemetry-api: 1.25.0
+    opentelemetry-semantic-conventions: 0.46b0
+    typing-extensions: '>=3.7.4'
+  url: https://files.pythonhosted.org/packages/ae/b2/729a959a8aa032bce246c791f977161099ab60fb0188408ccec1bf283b00/opentelemetry_sdk-1.25.0-py3-none-any.whl
+  hash:
+    sha256: d97ff7ec4b351692e9d5a15af570c693b8715ad78b8aafbec5c7100fe966b4c9
+  category: main
+  optional: false
+- name: opentelemetry-sdk
+  version: 1.25.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    opentelemetry-api: 1.25.0
+    opentelemetry-semantic-conventions: 0.46b0
+    typing-extensions: '>=3.7.4'
+  url: https://files.pythonhosted.org/packages/ae/b2/729a959a8aa032bce246c791f977161099ab60fb0188408ccec1bf283b00/opentelemetry_sdk-1.25.0-py3-none-any.whl
+  hash:
+    sha256: d97ff7ec4b351692e9d5a15af570c693b8715ad78b8aafbec5c7100fe966b4c9
+  category: main
+  optional: false
+- name: opentelemetry-sdk
+  version: 1.25.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    opentelemetry-api: 1.25.0
+    opentelemetry-semantic-conventions: 0.46b0
+    typing-extensions: '>=3.7.4'
+  url: https://files.pythonhosted.org/packages/ae/b2/729a959a8aa032bce246c791f977161099ab60fb0188408ccec1bf283b00/opentelemetry_sdk-1.25.0-py3-none-any.whl
+  hash:
+    sha256: d97ff7ec4b351692e9d5a15af570c693b8715ad78b8aafbec5c7100fe966b4c9
+  category: main
+  optional: false
+- name: opentelemetry-sdk
+  version: 1.25.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    opentelemetry-api: 1.25.0
+    opentelemetry-semantic-conventions: 0.46b0
+    typing-extensions: '>=3.7.4'
+  url: https://files.pythonhosted.org/packages/ae/b2/729a959a8aa032bce246c791f977161099ab60fb0188408ccec1bf283b00/opentelemetry_sdk-1.25.0-py3-none-any.whl
+  hash:
+    sha256: d97ff7ec4b351692e9d5a15af570c693b8715ad78b8aafbec5c7100fe966b4c9
+  category: main
+  optional: false
+- name: opentelemetry-semantic-conventions
+  version: 0.46b0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    opentelemetry-api: 1.25.0
+  url: https://files.pythonhosted.org/packages/fd/41/28dae1ec1fe0151373f06bd06d9170ca14b52d5b3a6c2dc55f85bc219619/opentelemetry_semantic_conventions-0.46b0-py3-none-any.whl
+  hash:
+    sha256: 6daef4ef9fa51d51855d9f8e0ccd3a1bd59e0e545abe99ac6203804e36ab3e07
+  category: main
+  optional: false
+- name: opentelemetry-semantic-conventions
+  version: 0.46b0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    opentelemetry-api: 1.25.0
+  url: https://files.pythonhosted.org/packages/fd/41/28dae1ec1fe0151373f06bd06d9170ca14b52d5b3a6c2dc55f85bc219619/opentelemetry_semantic_conventions-0.46b0-py3-none-any.whl
+  hash:
+    sha256: 6daef4ef9fa51d51855d9f8e0ccd3a1bd59e0e545abe99ac6203804e36ab3e07
+  category: main
+  optional: false
+- name: opentelemetry-semantic-conventions
+  version: 0.46b0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    opentelemetry-api: 1.25.0
+  url: https://files.pythonhosted.org/packages/fd/41/28dae1ec1fe0151373f06bd06d9170ca14b52d5b3a6c2dc55f85bc219619/opentelemetry_semantic_conventions-0.46b0-py3-none-any.whl
+  hash:
+    sha256: 6daef4ef9fa51d51855d9f8e0ccd3a1bd59e0e545abe99ac6203804e36ab3e07
+  category: main
+  optional: false
+- name: opentelemetry-semantic-conventions
+  version: 0.46b0
+  manager: pip
+  platform: win-64
+  dependencies:
+    opentelemetry-api: 1.25.0
+  url: https://files.pythonhosted.org/packages/fd/41/28dae1ec1fe0151373f06bd06d9170ca14b52d5b3a6c2dc55f85bc219619/opentelemetry_semantic_conventions-0.46b0-py3-none-any.whl
+  hash:
+    sha256: 6daef4ef9fa51d51855d9f8e0ccd3a1bd59e0e545abe99ac6203804e36ab3e07
+  category: main
+  optional: false
+- name: protobuf
+  version: 4.25.3
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/15/db/7f731524fe0e56c6b2eb57d05b55d3badd80ef7d1f1ed59db191b2fdd8ab/protobuf-4.25.3-cp37-abi3-manylinux2014_x86_64.whl
+  hash:
+    sha256: 7c8daa26095f82482307bc717364e7c13f4f1c99659be82890dcfc215194554d
+  category: main
+  optional: false
+- name: protobuf
+  version: 4.25.3
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/f3/bf/26deba06a4c910a85f78245cac7698f67cedd7efe00d04f6b3e1b3506a59/protobuf-4.25.3-cp37-abi3-macosx_10_9_universal2.whl
+  hash:
+    sha256: f1279ab38ecbfae7e456a108c5c0681e4956d5b1090027c1de0f934dfdb4b35c
+  category: main
+  optional: false
+- name: protobuf
+  version: 4.25.3
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/f3/bf/26deba06a4c910a85f78245cac7698f67cedd7efe00d04f6b3e1b3506a59/protobuf-4.25.3-cp37-abi3-macosx_10_9_universal2.whl
+  hash:
+    sha256: f1279ab38ecbfae7e456a108c5c0681e4956d5b1090027c1de0f934dfdb4b35c
+  category: main
+  optional: false
+- name: protobuf
+  version: 4.25.3
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/ad/6e/1bed3b7c904cc178cb8ee8dbaf72934964452b3de95b7a63412591edb93c/protobuf-4.25.3-cp310-abi3-win_amd64.whl
+  hash:
+    sha256: 209ba4cc916bab46f64e56b85b090607a676f66b473e6b762e6f1d9d591eb2e8
+  category: main
+  optional: false
+- name: pyarrow
+  version: 15.0.2
+  manager: pip
+  platform: linux-64
+  dependencies:
+    numpy: '>=1.16.6,<2'
+  url: https://files.pythonhosted.org/packages/61/94/0b28417737ea56a4819603c0024c8b24365f85154bb938785352e09bea55/pyarrow-15.0.2-cp311-cp311-manylinux_2_28_x86_64.whl
+  hash:
+    sha256: 90adb99e8ce5f36fbecbbc422e7dcbcbed07d985eed6062e459e23f9e71fd197
+  category: main
+  optional: false
+- name: pyarrow
+  version: 15.0.2
+  manager: pip
+  platform: osx-64
+  dependencies:
+    numpy: '>=1.16.6,<2'
+  url: https://files.pythonhosted.org/packages/34/50/93f6104e79bec6e1af4356f5164695a0b6338f230e1273706ec9eb836bea/pyarrow-15.0.2-cp311-cp311-macosx_10_15_x86_64.whl
+  hash:
+    sha256: 5f8bc839ea36b1f99984c78e06e7a06054693dc2af8920f6fb416b5bca9944e4
+  category: main
+  optional: false
+- name: pyarrow
+  version: 15.0.2
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    numpy: '>=1.16.6,<2'
+  url: https://files.pythonhosted.org/packages/47/cb/be17c4879e60e683761be281d955923d586a572fbc2503e08f08ca713349/pyarrow-15.0.2-cp311-cp311-macosx_11_0_arm64.whl
+  hash:
+    sha256: f5e81dfb4e519baa6b4c80410421528c214427e77ca0ea9461eb4097c328fa33
+  category: main
+  optional: false
+- name: pyarrow
+  version: 15.0.2
+  manager: pip
+  platform: win-64
+  dependencies:
+    numpy: '>=1.16.6,<2'
+  url: https://files.pythonhosted.org/packages/96/2f/0092154f3e1ebbc814de1f8a9075543d77a7ecc691fbad407df174799abe/pyarrow-15.0.2-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: b116e7fd7889294cbd24eb90cd9bdd3850be3738d61297855a71ac3b8124ee38
+  category: main
+  optional: false
+- name: pywin32
+  version: '306'
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/7e/9e/ad6b1ae2a5ad1066dc509350e0fbf74d8d50251a51e420a2a8feaa0cecbd/pywin32-306-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: a7639f51c184c0272e93f244eb24dafca9b1855707d94c192d4a0b4c01e1100e
+  category: main
+  optional: false
+- name: pyyaml
+  version: 6.0.1
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/7b/5e/efd033ab7199a0b2044dab3b9f7a4f6670e6a52c089de572e928d2873b06/PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  hash:
+    sha256: d2b04aac4d386b172d5b9692e2d2da8de7bfb6c387fa4f801fbf6fb2e6ba4673
+  category: main
+  optional: false
+- name: pyyaml
+  version: 6.0.1
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/ec/0d/26fb23e8863e0aeaac0c64e03fd27367ad2ae3f3cccf3798ee98ce160368/PyYAML-6.0.1-cp311-cp311-macosx_10_9_x86_64.whl
+  hash:
+    sha256: 6965a7bc3cf88e5a1c3bd2e0b5c22f8d677dc88a455344035f03399034eb3007
+  category: main
+  optional: false
+- name: pyyaml
+  version: 6.0.1
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/28/09/55f715ddbf95a054b764b547f617e22f1d5e45d83905660e9a088078fe67/PyYAML-6.0.1-cp311-cp311-macosx_11_0_arm64.whl
+  hash:
+    sha256: f003ed9ad21d6a4713f0a9b5a7a0a79e08dd0f221aff4525a2be4c346ee60aab
+  category: main
+  optional: false
+- name: pyyaml
+  version: 6.0.1
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/b3/34/65bb4b2d7908044963ebf614fe0fdb080773fc7030d7e39c8d3eddcd4257/PyYAML-6.0.1-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: bf07ee2fef7014951eeb99f56f39c9bb4af143d8aa3c21b1677805985307da34
+  category: main
+  optional: false
+- name: querystring-parser
+  version: 1.2.4
+  manager: pip
+  platform: linux-64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/88/6b/572b2590fd55114118bf08bde63c0a421dcc82d593700f3e2ad89908a8a9/querystring_parser-1.2.4-py2.py3-none-any.whl
+  hash:
+    sha256: d2fa90765eaf0de96c8b087872991a10238e89ba015ae59fedfed6bd61c242a0
+  category: main
+  optional: false
+- name: querystring-parser
+  version: 1.2.4
+  manager: pip
+  platform: osx-64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/88/6b/572b2590fd55114118bf08bde63c0a421dcc82d593700f3e2ad89908a8a9/querystring_parser-1.2.4-py2.py3-none-any.whl
+  hash:
+    sha256: d2fa90765eaf0de96c8b087872991a10238e89ba015ae59fedfed6bd61c242a0
+  category: main
+  optional: false
+- name: querystring-parser
+  version: 1.2.4
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/88/6b/572b2590fd55114118bf08bde63c0a421dcc82d593700f3e2ad89908a8a9/querystring_parser-1.2.4-py2.py3-none-any.whl
+  hash:
+    sha256: d2fa90765eaf0de96c8b087872991a10238e89ba015ae59fedfed6bd61c242a0
+  category: main
+  optional: false
+- name: querystring-parser
+  version: 1.2.4
+  manager: pip
+  platform: win-64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/88/6b/572b2590fd55114118bf08bde63c0a421dcc82d593700f3e2ad89908a8a9/querystring_parser-1.2.4-py2.py3-none-any.whl
+  hash:
+    sha256: d2fa90765eaf0de96c8b087872991a10238e89ba015ae59fedfed6bd61c242a0
+  category: main
+  optional: false
+- name: rasterio
+  version: 1.3.10
+  manager: pip
+  platform: linux-64
+  dependencies:
+    affine: '*'
+    attrs: '*'
+    certifi: '*'
+    click: '>=4.0'
+    cligj: '>=0.5'
+    numpy: '*'
+    snuggs: '>=1.4.1'
+    click-plugins: '*'
+  url: https://files.pythonhosted.org/packages/f7/0d/6dd65a77c4d2e0809d18edb7461f53a7597b19b886afff023ef5d4df8512/rasterio-1.3.10-cp311-cp311-manylinux2014_x86_64.whl
+  hash:
+    sha256: 30f27e309a14a70c821d10a0ea18b110968dc2e2186b06a900aebd92094f4e00
+  category: main
+  optional: false
+- name: rasterio
+  version: 1.3.10
+  manager: pip
+  platform: osx-64
+  dependencies:
+    affine: '*'
+    attrs: '*'
+    certifi: '*'
+    click: '>=4.0'
+    cligj: '>=0.5'
+    numpy: '*'
+    snuggs: '>=1.4.1'
+    click-plugins: '*'
+  url: https://files.pythonhosted.org/packages/16/da/b865cb4c588495e09c62a02c77b1c965ef478e329070233ceb0d6c45a4f9/rasterio-1.3.10-cp311-cp311-macosx_10_15_x86_64.whl
+  hash:
+    sha256: 97d867cada29f16cb83f1743217f775f8b982676fcdda77671d25abb26698159
+  category: main
+  optional: false
+- name: rasterio
+  version: 1.3.10
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    affine: '*'
+    attrs: '*'
+    certifi: '*'
+    click: '>=4.0'
+    cligj: '>=0.5'
+    numpy: '*'
+    snuggs: '>=1.4.1'
+    click-plugins: '*'
+  url: https://files.pythonhosted.org/packages/4f/f7/e4ac8f3dfd11e4c718e9281a7e41417462100bc0bc575059a8eeab1e8bf0/rasterio-1.3.10-cp311-cp311-macosx_11_0_arm64.whl
+  hash:
+    sha256: 505b3e659eb3b137192c25233bf7954bc4997b1a474bae9e129fbd5ac2619404
+  category: main
+  optional: false
+- name: rasterio
+  version: 1.3.10
+  manager: pip
+  platform: win-64
+  dependencies:
+    affine: '*'
+    attrs: '*'
+    certifi: '*'
+    click: '>=4.0'
+    cligj: '>=0.5'
+    numpy: '*'
+    snuggs: '>=1.4.1'
+    click-plugins: '*'
+  url: https://files.pythonhosted.org/packages/03/d9/40d44154946a55e8fe63b21d44120dae02f4f62500338d09ee0d29d59025/rasterio-1.3.10-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: cbb2eea127328302f9e3158a000363a7d9eea22537378dee4f824a7fa2d78c05
+  category: main
+  optional: false
+- name: scikit-learn
+  version: 1.5.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    numpy: '>=1.19.5'
+    scipy: '>=1.6.0'
+    joblib: '>=1.2.0'
+    threadpoolctl: '>=3.1.0'
+  url: https://files.pythonhosted.org/packages/46/c0/63d3a8da39a2ee051df229111aa93f6dca2b56f8080abd34993938166455/scikit_learn-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  hash:
+    sha256: 118a8d229a41158c9f90093e46b3737120a165181a1b58c03461447aa4657415
+  category: main
+  optional: false
+- name: scikit-learn
+  version: 1.5.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    numpy: '>=1.19.5'
+    scipy: '>=1.6.0'
+    joblib: '>=1.2.0'
+    threadpoolctl: '>=3.1.0'
+  url: https://files.pythonhosted.org/packages/50/d4/70a9393ab88862c070a263a464042ab4e572a1353b4c3c308bc72a5b68cf/scikit_learn-1.5.0-cp311-cp311-macosx_10_9_x86_64.whl
+  hash:
+    sha256: 2a65af2d8a6cce4e163a7951a4cfbfa7fceb2d5c013a4b593686c7f16445cf9d
+  category: main
+  optional: false
+- name: scikit-learn
+  version: 1.5.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    numpy: '>=1.19.5'
+    scipy: '>=1.6.0'
+    joblib: '>=1.2.0'
+    threadpoolctl: '>=3.1.0'
+  url: https://files.pythonhosted.org/packages/6c/97/dfc635bd435655c1216756b543e0427579df144914a055a188d3c0ffd52f/scikit_learn-1.5.0-cp311-cp311-macosx_12_0_arm64.whl
+  hash:
+    sha256: 4c0c56c3005f2ec1db3787aeaabefa96256580678cec783986836fc64f8ff622
+  category: main
+  optional: false
+- name: scikit-learn
+  version: 1.5.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    numpy: '>=1.19.5'
+    scipy: '>=1.6.0'
+    joblib: '>=1.2.0'
+    threadpoolctl: '>=3.1.0'
+  url: https://files.pythonhosted.org/packages/ae/20/6d1a0a61d468b37a142fd90bb93c73bc1c2205db4a69ac630ed218c31612/scikit_learn-1.5.0-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: a03b09f9f7f09ffe8c5efffe2e9de1196c696d811be6798ad5eddf323c6f4d40
+  category: main
+  optional: false
+- name: seaborn
+  version: 0.13.2
+  manager: pip
+  platform: linux-64
+  dependencies:
+    numpy: '>=1.20,<1.24.0 || >1.24.0'
+    pandas: '>=1.2'
+    matplotlib: '>=3.4,<3.6.1 || >3.6.1'
+  url: https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl
+  hash:
+    sha256: 636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987
+  category: main
+  optional: false
+- name: seaborn
+  version: 0.13.2
+  manager: pip
+  platform: osx-64
+  dependencies:
+    numpy: '>=1.20,<1.24.0 || >1.24.0'
+    pandas: '>=1.2'
+    matplotlib: '>=3.4,<3.6.1 || >3.6.1'
+  url: https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl
+  hash:
+    sha256: 636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987
+  category: main
+  optional: false
+- name: seaborn
+  version: 0.13.2
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    numpy: '>=1.20,<1.24.0 || >1.24.0'
+    pandas: '>=1.2'
+    matplotlib: '>=3.4,<3.6.1 || >3.6.1'
+  url: https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl
+  hash:
+    sha256: 636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987
+  category: main
+  optional: false
+- name: seaborn
+  version: 0.13.2
+  manager: pip
+  platform: win-64
+  dependencies:
+    numpy: '>=1.20,<1.24.0 || >1.24.0'
+    pandas: '>=1.2'
+    matplotlib: '>=3.4,<3.6.1 || >3.6.1'
+  url: https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl
+  hash:
+    sha256: 636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987
+  category: main
+  optional: false
+- name: setuptools-scm
+  version: 8.1.0
+  manager: pip
+  platform: linux-64
+  dependencies:
+    packaging: '>=20'
+  url: https://files.pythonhosted.org/packages/a0/b9/1906bfeb30f2fc13bb39bf7ddb8749784c05faadbd18a21cf141ba37bff2/setuptools_scm-8.1.0-py3-none-any.whl
+  hash:
+    sha256: 897a3226a6fd4a6eb2f068745e49733261a21f70b1bb28fce0339feb978d9af3
+  category: main
+  optional: false
+- name: setuptools-scm
+  version: 8.1.0
+  manager: pip
+  platform: osx-64
+  dependencies:
+    packaging: '>=20'
+  url: https://files.pythonhosted.org/packages/a0/b9/1906bfeb30f2fc13bb39bf7ddb8749784c05faadbd18a21cf141ba37bff2/setuptools_scm-8.1.0-py3-none-any.whl
+  hash:
+    sha256: 897a3226a6fd4a6eb2f068745e49733261a21f70b1bb28fce0339feb978d9af3
+  category: main
+  optional: false
+- name: setuptools-scm
+  version: 8.1.0
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    packaging: '>=20'
+  url: https://files.pythonhosted.org/packages/a0/b9/1906bfeb30f2fc13bb39bf7ddb8749784c05faadbd18a21cf141ba37bff2/setuptools_scm-8.1.0-py3-none-any.whl
+  hash:
+    sha256: 897a3226a6fd4a6eb2f068745e49733261a21f70b1bb28fce0339feb978d9af3
+  category: main
+  optional: false
+- name: setuptools-scm
+  version: 8.1.0
+  manager: pip
+  platform: win-64
+  dependencies:
+    packaging: '>=20'
+  url: https://files.pythonhosted.org/packages/a0/b9/1906bfeb30f2fc13bb39bf7ddb8749784c05faadbd18a21cf141ba37bff2/setuptools_scm-8.1.0-py3-none-any.whl
+  hash:
+    sha256: 897a3226a6fd4a6eb2f068745e49733261a21f70b1bb28fce0339feb978d9af3
+  category: main
+  optional: false
+- name: smmap
+  version: 5.0.1
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/a7/a5/10f97f73544edcdef54409f1d839f6049a0d79df68adbc1ceb24d1aaca42/smmap-5.0.1-py3-none-any.whl
+  hash:
+    sha256: e6d8668fa5f93e706934a62d7b4db19c8d9eb8cf2adbb75ef1b675aa332b69da
+  category: main
+  optional: false
+- name: smmap
+  version: 5.0.1
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/a7/a5/10f97f73544edcdef54409f1d839f6049a0d79df68adbc1ceb24d1aaca42/smmap-5.0.1-py3-none-any.whl
+  hash:
+    sha256: e6d8668fa5f93e706934a62d7b4db19c8d9eb8cf2adbb75ef1b675aa332b69da
+  category: main
+  optional: false
+- name: smmap
+  version: 5.0.1
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/a7/a5/10f97f73544edcdef54409f1d839f6049a0d79df68adbc1ceb24d1aaca42/smmap-5.0.1-py3-none-any.whl
+  hash:
+    sha256: e6d8668fa5f93e706934a62d7b4db19c8d9eb8cf2adbb75ef1b675aa332b69da
+  category: main
+  optional: false
+- name: smmap
+  version: 5.0.1
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/a7/a5/10f97f73544edcdef54409f1d839f6049a0d79df68adbc1ceb24d1aaca42/smmap-5.0.1-py3-none-any.whl
+  hash:
+    sha256: e6d8668fa5f93e706934a62d7b4db19c8d9eb8cf2adbb75ef1b675aa332b69da
+  category: main
+  optional: false
+- name: snuggs
+  version: 1.4.7
+  manager: pip
+  platform: linux-64
+  dependencies:
+    numpy: '*'
+    pyparsing: '>=2.1.6'
+  url: https://files.pythonhosted.org/packages/cc/0e/d27d6e806d6c0d1a2cfdc5d1f088e42339a0a54a09c3343f7f81ec8947ea/snuggs-1.4.7-py3-none-any.whl
+  hash:
+    sha256: 988dde5d4db88e9d71c99457404773dabcc7a1c45971bfbe81900999942d9f07
+  category: main
+  optional: false
+- name: snuggs
+  version: 1.4.7
+  manager: pip
+  platform: osx-64
+  dependencies:
+    numpy: '*'
+    pyparsing: '>=2.1.6'
+  url: https://files.pythonhosted.org/packages/cc/0e/d27d6e806d6c0d1a2cfdc5d1f088e42339a0a54a09c3343f7f81ec8947ea/snuggs-1.4.7-py3-none-any.whl
+  hash:
+    sha256: 988dde5d4db88e9d71c99457404773dabcc7a1c45971bfbe81900999942d9f07
+  category: main
+  optional: false
+- name: snuggs
+  version: 1.4.7
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    numpy: '*'
+    pyparsing: '>=2.1.6'
+  url: https://files.pythonhosted.org/packages/cc/0e/d27d6e806d6c0d1a2cfdc5d1f088e42339a0a54a09c3343f7f81ec8947ea/snuggs-1.4.7-py3-none-any.whl
+  hash:
+    sha256: 988dde5d4db88e9d71c99457404773dabcc7a1c45971bfbe81900999942d9f07
+  category: main
+  optional: false
+- name: snuggs
+  version: 1.4.7
+  manager: pip
+  platform: win-64
+  dependencies:
+    numpy: '*'
+    pyparsing: '>=2.1.6'
+  url: https://files.pythonhosted.org/packages/cc/0e/d27d6e806d6c0d1a2cfdc5d1f088e42339a0a54a09c3343f7f81ec8947ea/snuggs-1.4.7-py3-none-any.whl
+  hash:
+    sha256: 988dde5d4db88e9d71c99457404773dabcc7a1c45971bfbe81900999942d9f07
+  category: main
+  optional: false
+- name: sqlalchemy
+  version: 2.0.30
+  manager: pip
+  platform: linux-64
+  dependencies:
+    greenlet: '!=0.4.17'
+    typing-extensions: '>=4.6.0'
+  url: https://files.pythonhosted.org/packages/4d/21/87bcad723070f7cd5f9d45fb05557596aa1d23d19eef078b13edc9e31813/SQLAlchemy-2.0.30-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  hash:
+    sha256: a1429a4b0f709f19ff3b0cf13675b2b9bfa8a7e79990003207a011c0db880a13
+  category: main
+  optional: false
+- name: sqlalchemy
+  version: 2.0.30
+  manager: pip
+  platform: osx-64
+  dependencies:
+    greenlet: '!=0.4.17'
+    typing-extensions: '>=4.6.0'
+  url: https://files.pythonhosted.org/packages/cd/ae/062f6ebd474aef81a199a16d2b1fb521d5fb0bc38a470181b0bcbfe3eb11/SQLAlchemy-2.0.30-cp311-cp311-macosx_10_9_x86_64.whl
+  hash:
+    sha256: 955991a09f0992c68a499791a753523f50f71a6885531568404fa0f231832aa0
+  category: main
+  optional: false
+- name: sqlalchemy
+  version: 2.0.30
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    greenlet: '!=0.4.17'
+    typing-extensions: '>=4.6.0'
+  url: https://files.pythonhosted.org/packages/29/51/3baab95d7eea9816c59c8e093201288ce27651704927e03ccfe156b30792/SQLAlchemy-2.0.30-cp311-cp311-macosx_11_0_arm64.whl
+  hash:
+    sha256: f69e4c756ee2686767eb80f94c0125c8b0a0b87ede03eacc5c8ae3b54b99dc46
+  category: main
+  optional: false
+- name: sqlalchemy
+  version: 2.0.30
+  manager: pip
+  platform: win-64
+  dependencies:
+    greenlet: '!=0.4.17'
+    typing-extensions: '>=4.6.0'
+  url: https://files.pythonhosted.org/packages/74/9a/eec023807ae78e83342567303916b34a348d9d40703e7cef5dfb1e3635b6/SQLAlchemy-2.0.30-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: 0b3f4c438e37d22b83e640f825ef0f37b95db9aa2d68203f2c9549375d0b2260
+  category: main
+  optional: false
+- name: sqlparse
+  version: 0.5.0
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/43/5d/a0fdd88fd486b39ae1fd1a75ff75b4e29a0df96c0304d462fd407b82efe0/sqlparse-0.5.0-py3-none-any.whl
+  hash:
+    sha256: c204494cd97479d0e39f28c93d46c0b2d5959c7b9ab904762ea6c7af211c8663
+  category: main
+  optional: false
+- name: sqlparse
+  version: 0.5.0
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/43/5d/a0fdd88fd486b39ae1fd1a75ff75b4e29a0df96c0304d462fd407b82efe0/sqlparse-0.5.0-py3-none-any.whl
+  hash:
+    sha256: c204494cd97479d0e39f28c93d46c0b2d5959c7b9ab904762ea6c7af211c8663
+  category: main
+  optional: false
+- name: sqlparse
+  version: 0.5.0
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/43/5d/a0fdd88fd486b39ae1fd1a75ff75b4e29a0df96c0304d462fd407b82efe0/sqlparse-0.5.0-py3-none-any.whl
+  hash:
+    sha256: c204494cd97479d0e39f28c93d46c0b2d5959c7b9ab904762ea6c7af211c8663
+  category: main
+  optional: false
+- name: sqlparse
+  version: 0.5.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/43/5d/a0fdd88fd486b39ae1fd1a75ff75b4e29a0df96c0304d462fd407b82efe0/sqlparse-0.5.0-py3-none-any.whl
+  hash:
+    sha256: c204494cd97479d0e39f28c93d46c0b2d5959c7b9ab904762ea6c7af211c8663
+  category: main
+  optional: false
+- name: threadpoolctl
+  version: 3.5.0
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl
+  hash:
+    sha256: 56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467
+  category: main
+  optional: false
+- name: threadpoolctl
+  version: 3.5.0
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl
+  hash:
+    sha256: 56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467
+  category: main
+  optional: false
+- name: threadpoolctl
+  version: 3.5.0
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl
+  hash:
+    sha256: 56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467
+  category: main
+  optional: false
+- name: threadpoolctl
+  version: 3.5.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl
+  hash:
+    sha256: 56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467
+  category: main
+  optional: false
+- name: typing-extensions
+  version: 4.12.2
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl
+  hash:
+    sha256: 04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d
+  category: main
+  optional: false
+- name: typing-extensions
+  version: 4.12.2
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl
+  hash:
+    sha256: 04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d
+  category: main
+  optional: false
+- name: typing-extensions
+  version: 4.12.2
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl
+  hash:
+    sha256: 04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d
+  category: main
+  optional: false
+- name: typing-extensions
+  version: 4.12.2
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl
+  hash:
+    sha256: 04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d
+  category: main
+  optional: false
+- name: waitress
+  version: 3.0.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/5b/a9/485c953a1ac4cb98c28e41fd2c7184072df36bbf99734a51d44d04176878/waitress-3.0.0-py3-none-any.whl
+  hash:
+    sha256: 2a06f242f4ba0cc563444ca3d1998959447477363a2d7e9b8b4d75d35cfd1669
+  category: main
+  optional: false
+- name: werkzeug
+  version: 3.0.3
+  manager: pip
+  platform: linux-64
+  dependencies:
+    markupsafe: '>=2.1.1'
+  url: https://files.pythonhosted.org/packages/9d/6e/e792999e816d19d7fcbfa94c730936750036d65656a76a5a688b57a656c4/werkzeug-3.0.3-py3-none-any.whl
+  hash:
+    sha256: fc9645dc43e03e4d630d23143a04a7f947a9a3b5727cd535fdfe155a17cc48c8
+  category: main
+  optional: false
+- name: werkzeug
+  version: 3.0.3
+  manager: pip
+  platform: osx-64
+  dependencies:
+    markupsafe: '>=2.1.1'
+  url: https://files.pythonhosted.org/packages/9d/6e/e792999e816d19d7fcbfa94c730936750036d65656a76a5a688b57a656c4/werkzeug-3.0.3-py3-none-any.whl
+  hash:
+    sha256: fc9645dc43e03e4d630d23143a04a7f947a9a3b5727cd535fdfe155a17cc48c8
+  category: main
+  optional: false
+- name: werkzeug
+  version: 3.0.3
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    markupsafe: '>=2.1.1'
+  url: https://files.pythonhosted.org/packages/9d/6e/e792999e816d19d7fcbfa94c730936750036d65656a76a5a688b57a656c4/werkzeug-3.0.3-py3-none-any.whl
+  hash:
+    sha256: fc9645dc43e03e4d630d23143a04a7f947a9a3b5727cd535fdfe155a17cc48c8
+  category: main
+  optional: false
+- name: werkzeug
+  version: 3.0.3
+  manager: pip
+  platform: win-64
+  dependencies:
+    markupsafe: '>=2.1.1'
+  url: https://files.pythonhosted.org/packages/9d/6e/e792999e816d19d7fcbfa94c730936750036d65656a76a5a688b57a656c4/werkzeug-3.0.3-py3-none-any.whl
+  hash:
+    sha256: fc9645dc43e03e4d630d23143a04a7f947a9a3b5727cd535fdfe155a17cc48c8
+  category: main
+  optional: false
+- name: wrapt
+  version: 1.16.0
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6e/52/2da48b35193e39ac53cfb141467d9f259851522d0e8c87153f0ba4205fb1/wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  hash:
+    sha256: 72554a23c78a8e7aa02abbd699d129eead8b147a23c56e08d08dfc29cfdddca1
+  category: main
+  optional: false
+- name: wrapt
+  version: 1.16.0
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/fd/03/c188ac517f402775b90d6f312955a5e53b866c964b32119f2ed76315697e/wrapt-1.16.0-cp311-cp311-macosx_10_9_x86_64.whl
+  hash:
+    sha256: 1a5db485fe2de4403f13fafdc231b0dbae5eca4359232d2efc79025527375b09
+  category: main
+  optional: false
+- name: wrapt
+  version: 1.16.0
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/0f/16/ea627d7817394db04518f62934a5de59874b587b792300991b3c347ff5e0/wrapt-1.16.0-cp311-cp311-macosx_11_0_arm64.whl
+  hash:
+    sha256: 75ea7d0ee2a15733684badb16de6794894ed9c55aa5e9903260922f0482e687d
+  category: main
+  optional: false
+- name: wrapt
+  version: 1.16.0
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/cf/c3/0084351951d9579ae83a3d9e38c140371e4c6b038136909235079f2e6e78/wrapt-1.16.0-cp311-cp311-win_amd64.whl
+  hash:
+    sha256: aefbc4cb0a54f91af643660a0a150ce2c090d3652cf4052a5397fb2de549cd89
+  category: main
+  optional: false
+- name: xgboost
+  version: 2.0.3
+  manager: pip
+  platform: linux-64
+  dependencies:
+    numpy: '*'
+    scipy: '*'
+  url: https://files.pythonhosted.org/packages/c3/eb/496aa2f5d356af4185f770bc76055307f8d1870e11016b10fd779b21769c/xgboost-2.0.3-py3-none-manylinux2014_x86_64.whl
+  hash:
+    sha256: 30bd5f789fad467fd49e04e5d19e04238b931682c3951a514da5c2410b3bf59c
+  category: main
+  optional: false
+- name: xgboost
+  version: 2.0.3
+  manager: pip
+  platform: osx-64
+  dependencies:
+    numpy: '*'
+    scipy: '*'
+  url: https://files.pythonhosted.org/packages/45/6d/8c1d2570a52db6263d855c3ee3daf8f4bdf4a365cd6610772d6fce5fd904/xgboost-2.0.3-py3-none-macosx_10_15_x86_64.macosx_11_0_x86_64.macosx_12_0_x86_64.whl
+  hash:
+    sha256: b21b2bb188b162c615fce468db93e3f995f3690e6184aadc7743b58466dc7f13
+  category: main
+  optional: false
+- name: xgboost
+  version: 2.0.3
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    numpy: '*'
+    scipy: '*'
+  url: https://files.pythonhosted.org/packages/03/e6/4aef6799badc2693548559bad5b56d56cfe89eada337c815fdfe92175250/xgboost-2.0.3-py3-none-macosx_12_0_arm64.whl
+  hash:
+    sha256: 722d5b9351dfdf61973490dfd28abd42844db1cc469d07ed9b0cde9d1ffcdb32
+  category: main
+  optional: false
+- name: xgboost
+  version: 2.0.3
+  manager: pip
+  platform: win-64
+  dependencies:
+    numpy: '*'
+    scipy: '*'
+  url: https://files.pythonhosted.org/packages/24/ec/ad387100fa3cc2b9b81af0829b5ecfe75ec5bb19dd7c19d4fea06fb81802/xgboost-2.0.3-py3-none-win_amd64.whl
+  hash:
+    sha256: 462f131d7bfb1bc42f67c57fa5aa3e57d2b5755b1573a6e0d2c7e8895164e0fc
+  category: main
+  optional: false
+- name: zipp
+  version: 3.19.2
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/20/38/f5c473fe9b90c8debdd29ea68d5add0289f1936d6f923b6b9cc0b931194c/zipp-3.19.2-py3-none-any.whl
+  hash:
+    sha256: f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c
+  category: main
+  optional: false
+- name: zipp
+  version: 3.19.2
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/20/38/f5c473fe9b90c8debdd29ea68d5add0289f1936d6f923b6b9cc0b931194c/zipp-3.19.2-py3-none-any.whl
+  hash:
+    sha256: f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c
+  category: main
+  optional: false
+- name: zipp
+  version: 3.19.2
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/20/38/f5c473fe9b90c8debdd29ea68d5add0289f1936d6f923b6b9cc0b931194c/zipp-3.19.2-py3-none-any.whl
+  hash:
+    sha256: f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c
+  category: main
+  optional: false
+- name: zipp
+  version: 3.19.2
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/20/38/f5c473fe9b90c8debdd29ea68d5add0289f1936d6f923b6b9cc0b931194c/zipp-3.19.2-py3-none-any.whl
+  hash:
+    sha256: f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c
   category: main
   optional: false

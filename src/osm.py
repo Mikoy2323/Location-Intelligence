@@ -26,9 +26,10 @@ def boundaries_download(place):
 
     if response.status_code == 200:
         data = response.json()
-        #print(data)
         if place == "Amsterdam centrum":
             coords = data[0]["geojson"]["coordinates"]
+        elif place == "Kraków":
+            coords = data[0]["geojson"]["coordinates"][0]
         else:
             coords = data[0]["geojson"]["coordinates"][0][0]
         return coords
@@ -127,7 +128,6 @@ def fetch_population_data_worldpop(boundary_coords, worldpop_tiff_path):
     - population (list): Population within each specified polygon.
     """
     population = [None] * len(boundary_coords)
-
     with rasterio.open(worldpop_tiff_path) as src:
         for i in range(len(boundary_coords)):
             boundary_geojson = [boundary_coords.loc[i, 'geometry'].__geo_interface__]
