@@ -1,9 +1,15 @@
 DATA/*
 !DATA/.gitkeep
 !DATA/amsterdam_population.tif
+!DATA/krakow_population.tif
 RESULTS/PLOTS/*
+RESULTS/PREDICTIONS_PLOTS/*
 !RESULTS/.gitkeep
 !RESULTS/PLOTS/.gitkeep
+!RESULTS/PREDICTIONS_PLOTS/.gitkeep
+models_best/*
+!models_best/.gitkeep
+!models_best/model.pkl
 .idea/*
 .idea/misc.xml
 # Byte-compiled / optimized / DLL files

@@ -213,3 +213,39 @@ def distance_to_centrum_plotter(h3_df, central_point, results_path, city_name):
     plt.scatter(central_point[0], central_point[1], color="black", s=30, label="Central point")
     ax.legend()
     fig.savefig(results_path / f"{city_name}_distance_to_centrum.png")
+
+
+def results_h3_count_bike_path_plotter(h3_df, results_path, city_name):
+    """
+    Plots bike path count prediction by H3 area and saves the plot as an image.
+
+    Parameters:
+    - h3_df (GeoDataFrame): GeoDataFrame containing aggregated H3 hexagons with predicted counts of bike_paths and geometries.
+    - results_path (str): Path to the directory where the plot image will be saved.
+    - city_name (str): Name of the city for which the plot is generated.
+
+    Returns:
+    - None
+    """
+    fig, ax = plt.subplots(1, 2, figsize=(12, 10))
+    fig.suptitle(f"{city_name} bike paths count by h3 area", fontsize=20)
+
+    max_value = max(h3_df['bike_paths_count'].max(), h3_df['prediction'].max())
+
+    h3_df.plot(column="bike_paths_count", cmap='OrRd', legend=True, ax=ax[0], vmin=0, vmax=max_value)
+    ax[0].set_title(f"Real {city_name} data")
+
+    h3_df.plot(column="prediction", cmap='OrRd', legend=True, ax=ax[1], vmin=0, vmax=max_value)
+    ax[1].set_title(f"Predicted {city_name} data")
+
+    fig.savefig(results_path / f"{city_name}_predicted_bike_paths.png")
+
+
+def results_h3_difference_bike_path_plotter(h3_df, results_path, city_name):
+    fig, ax = plt.subplots(figsize=(12, 10))
+    fig.suptitle(f"Difference between predicted and actual bike paths in {city_name}  by h3 area", fontsize=20)
+
+    h3_df["difference"] = h3_df["prediction"] - h3_df["bike_paths_count"]
+    h3_df.plot(column="difference", cmap='OrRd', legend=True, ax=ax)
+
+    fig.savefig(results_path / f"{city_name}_predicted_difference_bike_paths.png")
